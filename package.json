@@ -1,0 +1,12 @@
+
+{
+  "name": "gestor-usuario",
+  "version": "1.0.0",
+  "description": "Módulo Gestor del Usuario",
+  "dependencies": {
+    // Aquí irían las dependencias del módulo
+  },
+  "devDependencies": {
+    // Aquí irían las dependencias de desarrollo del módulo
+  }
+}
