@@ -1,1 +1,23 @@
+name: Integración Continua
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout código fuente
+      uses: actions/checkout@v2
+
+    - name: Configurar entorno
+      run: |
+        npm install
+
+    - name: Ejecutar pruebas
+      run: |
+        npm test
 
